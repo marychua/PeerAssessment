@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    width: 2rem;
+    margin-right:10px;
+}
+
+/*LOGIN*/
+.login-img1{
+    position: relative;
+    max-width: 650px;
+}
+
+.login-img-wrapper, .register-img-wrapper{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.login-btn{
+    border-radius: 25px!important;
+}
+
+.login-form{
+    padding: 8rem 10rem !important;
+}
+
+.site-title{
+    color: #1DA1F2;
+    position: fixed;
+    top: 3rem;
+    left: 4rem;
+    
+}
+
+.login-password, .login-id{
+    border: black 1px solid;
+    background-color: pink;
+}
+
+.login-icon{
+    width: 2.3rem;
+}
+
+/*REGISTER*/
+.register-img{
+    position: relative;
+    max-width: 690px;
+    margin-top: 9rem;
+}
+
+.register-form{
+    padding: 3rem 6rem !important;
+}
+
+
+/*HOMEPAGE*/
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    background-color: #f5f6fa!important;
+}
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #3F3D56;
+    color: #fff;
+    transition: all 0.3s;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #3F3D56;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #3F3D56;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.btn.sidebarCollapse{
+    background-color: #FF6584;
+    color: #fff!important;
+}
+
+.btn-primary-custom{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none!important;
+    color: #fff;
+    background-color:#1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.btn-success-custom{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none!important;
+    color: #fff;
+    background-color:#28a745;
+    border-color: #28a745;
+}
+.btn-success-custom2{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none!important;
+    color: #fff;
+    background-color:#FF6584;
+    border-color: #FF6584;
+}
+
+.btn-success-custom3{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none!important;
+    color: #fff;
+    background-color:#6c757d;
+    border-color: #6c757d;
+}
+
+.rounder{
+    border-radius: 2rem;
+}
+
+.btn-primary-custom:hover, .btn-success-custom:hover, .btn-success-custom2:hover{
+    color: #fff;
+    filter: brightness(85%);
+    transition: 0.3s;
+}
+
+
+.std-count{
+    color: gray;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.card-header{
+    background-color: #1DA1F2!important;
+    color: white!important;
+}
+
+.card-header.card-header-2{
+    background-color: #28a745!important;
+    color: white!important;
+}
+
+.card-header.card-header-3{
+    background-color: #FF6584!important;
+    color: white!important;
+}
+
+.user-photo{
+    width: 55px;
+    height: 55px!important;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.fas.fa-bars{
+    margin-right: 10px;
+}
+
+
+
+.progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+}
+
+.progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.progress .progress-left {
+    left: 0;
+}
+
+.progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+
+.progress .progress-right {
+    right: 0;
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+}
+
+.progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rounded-lg {
+    border-radius: 1rem;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+div.h4 {
+    line-height: 1rem;
+}
+
+.std-detail{
+    padding: 0 20px 0 20px;
+}
+
+
+.item .item-content {
+    padding: 30px 35px
+}
+
+.image-upload {
+    width: 100%;
+    height: 300px;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    background: #f8f8f9;
+    color: #666;
+    overflow: hidden
+}
+
+.item-wrapper form img {
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    width: auto;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.image-upload img {
+    height: 100% !important;
+    width: auto !important;
+    border-radius: 0px;
+    margin: 0 auto
+}
+
+.image-upload i {
+    font-size: 6em;
+    color: #ccc
+}
+
+.image-upload input {
+    cursor: pointer;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.item-wrapper input {
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px
+}
+
+#selectedFiles img {
+    max-width: 125px;
+    max-height: 125px;
+    float: left;
+    margin-bottom:10px;
+}
